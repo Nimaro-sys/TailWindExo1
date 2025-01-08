@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles personnalisés */
+@layer utilities {
+  /* Animation de survol pour le burger */
+  .Burger:hover div {
+    @apply scale-110 transition-transform duration-300 ease-in-out;
+  }
+}
