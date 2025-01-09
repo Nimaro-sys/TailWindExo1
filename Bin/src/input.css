@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .Burger:hover {
+    animation: scaleUp 0.3s ease-in-out forwards;
+  }
+}

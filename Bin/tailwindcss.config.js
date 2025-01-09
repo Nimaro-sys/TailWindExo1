@@ -1,6 +1,8 @@
-// tailwind.config.js
 module.exports = {
-  content: ['./../Index.html'], // Mettez à jour selon votre structure
+  content: [
+    './../Index.html', // Inclure tous les fichiers HTML à la racine
+    './**/*.css', // Inclure tous les fichiers CSS dans les sous-dossiers
+  ],
   theme: {
     extend: {
       keyframes: {
@@ -10,7 +12,7 @@ module.exports = {
         },
       },
       animation: {
-        scaleUp: 'scaleUp 0.3s ease-in-out',
+        scaleUp: 'scaleUp 0.3s ease-in-out forwards',
       },
     },
   },
