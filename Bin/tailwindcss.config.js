@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    './../Index.html', // Inclure tous les fichiers HTML à la racine
+    './../*.html', // Inclure tous les fichiers HTML à la racine
     './**/*.css', // Inclure tous les fichiers CSS dans les sous-dossiers
   ],
   theme: {
