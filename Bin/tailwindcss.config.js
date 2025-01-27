@@ -1,7 +1,8 @@
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: [
-    './../*.html', // Inclure tous les fichiers HTML à la racine
-    './**/*.css', // Inclure tous les fichiers CSS dans les sous-dossiers
+    './index.html', // Ajoutez le chemin correct ici
+    './**/*.html',  // Cela inclura tous les fichiers HTML dans votre projet
   ],
   theme: {
     extend: {
@@ -12,7 +13,7 @@ module.exports = {
         },
       },
       animation: {
-        scaleUp: 'scaleUp 0.3s ease-in-out forwards',
+        scaleUp: 'scaleUp 0.3s ease-in-out',
       },
     },
   },
